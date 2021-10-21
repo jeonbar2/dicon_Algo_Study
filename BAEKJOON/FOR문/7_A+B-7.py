@@ -2,7 +2,7 @@
 
 
 def add_7(T):
-    for i in range(T):
+    for i in range(1, T + 1):
         a, b = map(int, input().split())
         print(
             "Case #",
@@ -13,4 +13,4 @@ def add_7(T):
         )
 
 
-add_7(3)
+add_7(int(input()))
